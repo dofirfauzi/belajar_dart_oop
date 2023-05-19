@@ -20,6 +20,14 @@ class Person {
   void sayHello() {
     print('Hallo my name is $firstName');
   }
+
+  /*
+  METHODE EXPRESSION BODY 
+  1. jika methode yang kita buat itu simple hanya satu bais bisa menggunakan expression body
+  2. Cara pembuatannya sama seperti membuat anonymous function
+  */
+
+  void sayHello2() => print('Methode expression body');
 }
 
 /*
